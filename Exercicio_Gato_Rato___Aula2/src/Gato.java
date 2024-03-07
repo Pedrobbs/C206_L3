@@ -9,7 +9,7 @@ public class Gato {
     }
 
     public void caçar(Rato rato) {
-        if (this.velocidade > rato.velocidade && rato.escondido == true) {
+        if (this.velocidade > rato.velocidade && rato.escondido == false) {
             System.out.println(this.nome + " caçou " + rato.nome + "!");
         } else {
             System.out.println(rato.nome + " escapou de " + this.nome + "!");
