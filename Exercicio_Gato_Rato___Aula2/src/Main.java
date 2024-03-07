@@ -8,13 +8,14 @@ public class Main {
         gato.brinca();
         System.out.println();
 
-        rato.procuraComida();       // Mudando escondido = false
+        rato.esconder();       // Mudando escondido = true
         System.out.println(rato.nome + " esta escondido...");
         gato.caçar(rato);
 
         System.out.println();
 
-        rato.esconder();       // Mudando escondido = true
+
+        rato.procuraComida();       // Mudando escondido = false
         System.out.println(rato.nome + " esta procurando comida...");
         gato.caçar(rato);
 
