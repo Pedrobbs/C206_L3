@@ -1,0 +1,9 @@
+Nome do Comprador: teste
+CPF do Comprador: 11122233300
+Tipo de Entrega: ENTREGA
+Endereço de Entrega: rua.teste
+
+Carrinho de Compras:
+- Maçã - R$ 3.5 - Quantidade: 1
+- Banana - R$ 2.0 - Quantidade: 10
+Total a pagar: R$ 23.5
